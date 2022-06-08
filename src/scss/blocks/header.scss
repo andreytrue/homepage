@@ -1,0 +1,47 @@
+// @import '../variables.scss';
+
+.header {
+  margin-top: 16px;
+}
+
+.header__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__item {
+  margin-right: 20px;
+}
+
+.header__link {
+  position: relative;
+  color: $black;
+  padding: 4px;
+  font-size: 1rem;
+
+  &:hover {
+    color: $green;
+  }
+
+  &:active {
+    opacity: 70%;
+  }
+
+  &:first-of-type {
+    margin-left: -4px;
+  }
+
+  &:not(:last-of-type) {
+    &::after {
+      content: '/';
+      position: absolute;
+      display: block;
+      width: 5px;
+      height: 5px;
+      top: 0;
+      right: 0;
+    }
+  }
+}

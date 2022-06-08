@@ -1,0 +1,19 @@
+@import './variables.scss';
+@import './blocks/header.scss';
+@import './blocks/main.scss';
+@import './blocks/about.scss';
+@import './blocks/projects.scss';
+@import './blocks/facts.scss';
+@import './blocks/links.scss';
+@import './blocks/footer.scss';
+
+.app {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 768px;
+  height: 100vh;
+  font-family: -apple-system, 'Roboto', sans-serif;
+  font-size: 24px;
+  padding: 0;
+};
