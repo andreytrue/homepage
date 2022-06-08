@@ -12,4 +12,4 @@ export const FooterLinks = {
   Email: 'mailto:demyanov23@gmail.com',
 };
 
-export const SOURCE_CODE = 'https://github.com/andreytrue';
+export const SOURCE_CODE = 'https://github.com/andreytrue/homepage';
