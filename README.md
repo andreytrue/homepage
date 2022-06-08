@@ -1,3 +1,3 @@
 ## homapage repository
 
-This website build with React, TypeScript, Scss and npm
+This website built with React, TypeScript, Scss and npm
